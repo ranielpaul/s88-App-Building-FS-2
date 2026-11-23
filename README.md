@@ -1,12 +1,8 @@
 # S88 - MTE - App Building
 
 ## Features:
-### General Requirements:
-- mern stack
--get all movies, get specific movie, add movie for admin
-- authentication and login
-
-
+### Stack:
+- MERN (Mongoose, Express, React, Node)
 
 ### Users
 - all users can register/login with only an email and password
@@ -17,7 +13,7 @@
 - add movie button
 
 ### Logged in user:
-- view single movie card. should have fields like:
+- view single movie card. and have the fields:
     - title
     - director
     - year
@@ -27,7 +23,7 @@
 - view movie button for each movie card
 
 ### API usage:
--  base api url is https://movieapp-api-lms1.onrender.com or VITE_BASE_API_URL in .env
+- Base api url is https://movieapp-api-lms1.onrender.com or VITE_BASE_API_URL in .env
 - Refer to the API url usage in ./movieApp.md
 
 ### file structure:

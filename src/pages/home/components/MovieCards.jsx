@@ -2,24 +2,12 @@ import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import UserContext from "../../../context/UserContext";
 
-const genreColors = {
-  Action: "bg-blue-50 text-blue-700 border-blue-200",
-  Comedy: "bg-amber-50 text-amber-700 border-amber-200",
-  Drama: "bg-indigo-50 text-indigo-700 border-indigo-200",
-  SciFi: "bg-cyan-50 text-cyan-700 border-cyan-200",
-  "Sci-Fi": "bg-cyan-50 text-cyan-700 border-cyan-200",
-  Horror: "bg-rose-50 text-rose-700 border-rose-200",
-  Romance: "bg-pink-50 text-pink-700 border-pink-200",
-  Thriller: "bg-purple-50 text-purple-700 border-purple-200",
-  Animation: "bg-teal-50 text-teal-700 border-teal-200"
-};
 
 export function MovieCard({ movie, onViewMovie }) {
   const { isAuthenticated } = useContext(UserContext);
   const navigate = useNavigate();
 
-  const badgeStyle =
-    genreColors[movie.genre] || "bg-blue-50 text-blue-700 border-blue-200";
+  const badgeStyle ="bg-blue-50 text-blue-700 border-blue-200";
 
   const handleView = () => {
     if (onViewMovie) {

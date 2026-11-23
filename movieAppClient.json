@@ -1,5 +1,5 @@
 {
-    "url": "",
+    "url": "https://s88-app-building-fs-2.vercel.app",
     "endpoints": {
         "register": "/register",
         "login": "/login",
