@@ -68,21 +68,14 @@ export default function Home() {
 
       <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-10">
         {/* Clean White & Blue Hero Banner */}
-        <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-50/80 via-white to-blue-100/40 border border-blue-200/70 p-8 sm:p-12 mb-10 shadow-sm">
-          <div className="max-w-2xl">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 text-blue-700 border border-blue-200 mb-4">
-              <span>🎬</span> Cinema & Movie Discovery
-            </span>
-            <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900 mb-4">
-              Explore Top Movies & Reviews
+        <section className="relative overflow-hidden rounded-3xl border border-slate-300 p-8 sm:p-12 mb-10 shadow-sm">
+          <div className="max-w">
+            <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-900 mb-4">
+              🎬 Explore Movies & Comments
             </h1>
-            <p className="text-sm sm:text-base text-slate-600 leading-relaxed mb-6">
-              Browse our curated collection of films, read descriptions, check director credits,
-              and join discussions with fellow movie lovers.
-            </p>
 
             {/* Clean Search Input */}
-            <div className="relative max-w-lg">
+            <div className="relative max-w">
               <span className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400 text-sm">
                 🔍
               </span>
