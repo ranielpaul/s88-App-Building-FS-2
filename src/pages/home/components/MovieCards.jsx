@@ -43,12 +43,6 @@ export function MovieCard({ movie, onViewMovie }) {
             {movie.year || "N/A"}
           </span>
         </div>
-        
-        <img
-          src="/placeholder.png"
-          alt="Movie placeholder"
-          className="w-full h-48 object-cover"
-        />
 
         <h3 className="text-base font-bold text-slate-900 group-hover:text-blue-600 transition-colors line-clamp-1">
           {movie.title}
