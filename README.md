@@ -2,7 +2,7 @@
 
 ## Features:
 ### Stack:
-- MERN (Mongoose, Express, React, Node)
+- MEVN (Mongoose, Express, Vue, Node)
 
 ### Users
 - all users can register/login with only an email and password
@@ -29,5 +29,5 @@
 ### file structure:
 - feature-based folder architecture
 - page components are fairly contained within their own folders, they are in:
-    - pages/home/home.jsx, with the other components like MovieCards.jsx that are used are in pages/home/components/MovieCards.jsx
-- for components that aren't pages like navbar, they are in src/components/Navbar.jsx
+    - pages/home/Home.vue, with the other components like MovieCards.vue that are used are in pages/home/components/MovieCards.vue
+- for components that aren't pages like navbar, they are in src/components/Navbar.vue

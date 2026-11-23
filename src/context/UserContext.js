@@ -1,8 +1,13 @@
-import React from 'react';
+import { inject } from "vue";
 
-const UserContext = React.createContext();
+export const UserContext = Symbol("UserContext");
 
-export const UserProvider = UserContext.Provider;
+export function useUserContext() {
+  const context = inject(UserContext);
+  if (!context) {
+    throw new Error("User context is not available.");
+  }
+  return context;
+}
 
 export default UserContext;
- 
