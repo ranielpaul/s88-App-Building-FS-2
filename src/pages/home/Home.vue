@@ -78,6 +78,9 @@ function closeMovie() {
           <h1 class="text-3xl sm:text-5xl font-extrabold text-slate-900 mb-4">
             🎬 Explore Movies & Comments
           </h1>
+          <p className="text-sm sm:text-base text-slate-600 leading-relaxed mb-6">
+              Browse our curated collection of films
+          </p>
           <div class="relative max-w">
             <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400 text-sm">
               🔍
